@@ -1,4 +1,4 @@
-# Simple Todo Application
+# Todo
 
 This is a simple todo application built with Next.js, React, Tailwind CSS, and Prisma. The application allows users to manage their todo list.
 
