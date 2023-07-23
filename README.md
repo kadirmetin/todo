@@ -13,7 +13,7 @@ This is a simple todo application built with Next.js, React, Tailwind CSS, and P
 
 ```
 git clone https://github.com/kadirmetin/todo.git
-cd todo-app
+cd todo
 ```
 
 2. Install the dependencies:
