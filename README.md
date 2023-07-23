@@ -34,7 +34,7 @@ npm run dev
 5. The application should now be running at http://localhost:3000. You can open this address in your browser to access the application.
 
 ## Usage
-When the application starts, all tasks will be listed on the main page. You can use the "Create new Task" button to add new tasks. Existing tasks have a checkbox that you can use to mark them as completed. To filter completed or uncompleted tasks, you can use the filtering options. You can also use the edit or delete buttons to modify or remove tasks.
+When the application starts, all tasks will be listed on the main page. You can use the "Create new Task" button to add new tasks. Existing tasks have a checkbox that you can use to mark them as completed.
 
 ## License
 This project is licensed under the MIT License. For more information, see the LICENSE file.
