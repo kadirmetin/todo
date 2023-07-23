@@ -22,10 +22,10 @@ export default async function Home() {
   return (
     <div className="p-6 gap-6 flex flex-col">
       <Link
-        href={"/createNewTodo"}
+        href={"/createNewTask"}
         className="text-center text-white py-2 rounded bg-blue-800"
       >
-        Create new To do
+        Create new Task
       </Link>
       <ul className="flex flex-col gap-4">
         {todos.map((todo) => (

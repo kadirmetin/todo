@@ -1,7 +1,7 @@
 import { prisma } from "@/app/server/db";
 import { redirect } from "next/navigation";
 
-async function createTodo(data: FormData) {
+async function createTask(data: FormData) {
   "use server";
 
   const title = data.get("title")?.valueOf();
@@ -17,9 +17,9 @@ async function createTodo(data: FormData) {
   redirect("/");
 }
 
-export default function createNewTodo() {
+export default function createNewTask() {
   return (
-    <form action={createTodo} className="p-6 flex flex-col gap-4">
+    <form action={createTask} className="p-6 flex flex-col gap-4">
       <label htmlFor="title">Title</label>
       <input
         type="text"
