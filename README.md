@@ -21,12 +21,7 @@ cd todo
 npm install
 ```
 
-3. Create and migrate the database:
-```
-npx prisma migrate dev
-```
-
-4. Start the application:
+3. Start the application:
 ```
 npm run dev
 ```
